@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Code Snippet Journal",
+  "version": "1.0",
+  "description": "Save, tag, and annotate code snippets you find while browsing.",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Code Snippet Journal"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
