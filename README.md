@@ -1,4 +1,5 @@
 Code Snippet Journal
+
 Description:
 
 A Chrome browser extension that lets you save, tag, and annotate code snippets you find while browsing the web.
