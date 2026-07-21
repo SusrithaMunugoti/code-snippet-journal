@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Code Snippet Journal</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <span class="logo-icon">{ }</span>
+      <span class="logo-text">Code Snippet Journal</span>
+    </div>
+    <span class="count" id="count">0 snippets</span>
+  </div>
+
+  <div class="search-bar">
+    <span class="search-icon">⌕</span>
+    <input type="text" id="search" placeholder="Search by keyword or tag…" autocomplete="off" />
+  </div>
+
+  <div class="snippet-list" id="snippetList">
+    <div class="empty-state" id="emptyState">
+      <div class="empty-icon">{ }</div>
+      <p>No snippets yet.</p>
+      <p class="empty-hint">Highlight code on any page, right-click,<br>and choose <strong>Save to Code Snippet Journal</strong>.</p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
