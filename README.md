@@ -6,6 +6,7 @@ A Chrome browser extension that lets you save, tag, and annotate code snippets y
 - Highlight any code on a webpage, right-click, and save it instantly
 - View all your saved snippets in the extension popup
 - Add tags and notes to each snippet
+- One-click Copy button to paste code back out with formatting intact
 - Search snippets by keyword or tag
 - All snippets are stored locally in your browser
 
